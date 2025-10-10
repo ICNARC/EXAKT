@@ -5,7 +5,7 @@ Statisticians: Doidge J, Cowden A, Charles W, Harrison D
 *******************************************************************************/
 
 * global config
-cd "S:\Stats\7. Confidential\Trials\UK-ROX\EXAKT" //define working directory. All do files should be stored in a subdirectory named "Analysis" or filepaths updated as required, below.
+cd "<INSERT DIRECTORY>" //define working directory. All do files should be stored in a subdirectory named "Analysis" or filepaths updated as required, below.
 global OutputDir "Analysis\Outputs\BMJ" //define output directory
 global LogDir "Analysis\Logs" //define log directory
 global ExtractDate "20250217" //used within data file names
@@ -78,3 +78,4 @@ do "Analysis\do 5.4 Line Graphs Separated"// Figures 3 and 4
 
 * Supplementary figure 8 - histogram of ITA
 do "Analysis\do 6 histogram of ITA"
+
