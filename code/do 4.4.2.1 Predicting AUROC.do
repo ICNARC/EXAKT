@@ -4,7 +4,7 @@ Do file for: Adjusted AUROC
 *******************************************************************************/
 
 * config
-cd "S:\Stats\7. Confidential\Trials\UK-ROX\EXAKT"
+
 version 17
 set varabbrev off
 set more off
@@ -146,4 +146,5 @@ forval o = 1/5{
 local est = trim(string(overall[1,3],"%4.2f"))
 local lb = trim(string(overall[5,3],"%4.2f"))
 local ub = trim(string(overall[6,3],"%4.2f"))	
+
 putexcel G7 = ("`est' (`lb', `ub')")
