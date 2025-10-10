@@ -4,7 +4,7 @@ Do file for: Prepare data for plotting line graphs
 *******************************************************************************/
 
 * config
-cd "S:\Stats\7. Confidential\Trials\UK-ROX\EXAKT"
+
 version 17
 set varabbrev off
 set more off
@@ -237,3 +237,4 @@ foreach v of varlist *_noncases *_hypox{
 }
 sort o ITA
 save DataForDiagnosticAccuracyPlots, replace
+
