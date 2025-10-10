@@ -7,7 +7,7 @@ Do file for: Figure 2 - Banana plots
 version 17
 set varabbrev off
 set more off
-cd "S:\Stats\7. Confidential\Trials\UK-ROX\EXAKT"
+
 
 *import data
 global DashedDate = substr("$ExtractDate",1,4)+"-"+substr("$ExtractDate",5,2)+"-"+substr("$ExtractDate",7,2)
@@ -104,4 +104,5 @@ forvalues j = 1/5 {
 }
 graph combine p1 p2 p3 p4 p5, row(1) xsize(15) ysize(8) imargin(medium) iscale(*.8) graphr(margin(r+5))
 gr export "${OutputDir}\\banana_by_skintone_and_oximeter.svg", replace
+
 gr export "${OutputDir}\\banana_by_skintone_and_oximeter.pdf", replace
