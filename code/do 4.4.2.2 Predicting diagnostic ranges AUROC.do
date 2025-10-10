@@ -4,7 +4,7 @@ Do file for: Differences across skin tone categories in adjusted AUROC
 *******************************************************************************/
 
 * config
-cd "S:\Stats\7. Confidential\Trials\UK-ROX\EXAKT"
+
 version 17
 set varabbrev off
 set more off
@@ -123,5 +123,6 @@ forval i = 1/6 {
 		putexcel G8 = ("`est' (`lb', `ub')")
 	}	
 }
+
 
 log close
