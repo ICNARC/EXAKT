@@ -7,7 +7,7 @@ cap log close
 log using PredictingDiagnostic, text replace
 
 * config
-cd "S:\Stats\7. Confidential\Trials\UK-ROX\EXAKT"
+
 version 17
 set varabbrev off
 set more off
@@ -288,6 +288,7 @@ forval i = 0/5 {
 		}
 	}	
 }	
+
 
 
 log close
