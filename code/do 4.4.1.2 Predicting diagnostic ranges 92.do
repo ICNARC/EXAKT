@@ -4,7 +4,7 @@ Do file for: Adjusted Sn and Sp at threshold of SpO2=92
 *******************************************************************************/
 
 * config
-cd "S:\Stats\7. Confidential\Trials\UK-ROX\EXAKT"
+
 version 17
 set varabbrev off
 set more off
@@ -266,4 +266,5 @@ forval i = 13/18 {
 		putexcel G8 = ("`est' (`lb', `ub')")
 	}	
 }
+
 log close
